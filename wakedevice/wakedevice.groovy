@@ -17,13 +17,16 @@
  *  2 - Link your Smartthings Hub, if it's not already linked, your account.
  *  3 - Create a new SmartApp out of this code. Go to your "MySmartApps" page, click on the "New SmartApp" button, 
  *      choose "From Code", and then copy and paste the contents of this file there. Then click on "Create" button.
- *  4 - You now need to create a Virtual Switch that will control this SmartApp. Go to your "My Devices" page, click on
- *      the new "New Device" button, and follow this:
- *          Name: Put a name for the Virtual Switch, like "Turn on Kitchen TV"
+ *  4 - You now need to create a new Device Handler. Go to your "My Device Handlers" page, and click on "Create New Device Handler"
+        button. Select the "From Code" option, then open https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/togglebutton.groovy 
+		on your browser and copy and paste the code on the form, then click on the "Create" button
+ *  4 - You now need to create a new Device that will control this SmartApp. Go to your "My Devices" page, click on
+ *      the new "Create New Device" button, and follow this:
+ *          Name: Put a name for the Toggle Button, like "Turn on Kitchen TV"
  *          Label: Put a label, can be the same as the Name
  *          Zigbee Id: leave blank
- *          Device Network ID: Give it an unique identifier, like "VBUTWOLKTV"
- *          Type: Select "Virtual Switch"
+ *          Device Network ID: Give it an unique identifier, like "BUTWOLKTV"
+ *          Type: Select "Toggle Button"
  *          Version: Published
  *          Location: Choose the Location where your Smartthings Hub is. If you don't have one yet, go back and create one
  *                    at "Locations" page. But you'll probably have one already, so, choose it.
@@ -47,9 +50,9 @@ definition(
     author: "Sergio Baiao",
     description: "Turn On device using Wake On LAN",
     category: "Convenience",
-    iconUrl: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.png",
-    iconX2Url: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.png",
-    iconX3Url: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.png")
+    iconUrl: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakebutton.png",
+    iconX2Url: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakebutton.png",
+    iconX3Url: "https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakebutton.png")
 
 preferences {    
     section("Choose Switch") {
