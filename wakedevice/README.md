@@ -37,8 +37,8 @@
 ### Account
 
 - To start working with SmartThings' SmartApps and everything else, you must have a Samsung Account. If you don't have one, you must create one at https://account.samsung.com/membership/intro first.
-- Using your Samsung Account, login to https://graph.api.smartthings.com/ . 
-- If you haven't done yet, you need to setup GitHub integration. Follow https://docs.smartthings.com/en/latest/tools-and-ide/github-integration.html?highlight=github
+- Using your Samsung Account, login to <a href="https://graph.api.smartthings.com/" target="_blank">`SmartThings Groovy IDE`</a>. 
+- If you haven't done yet, you need to setup GitHub integration. Follow <a href="https://docs.smartthings.com/en/latest/tools-and-ide/github-integration.html?highlight=github" target="_blank">THIS GUIDE</a>.
 
 ### Setup
 
@@ -46,7 +46,8 @@
 
 
 ```shell
-Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste the contents of <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.groovy" target="_blank">wakedevice.groovy</a> there. Then click on "Create" button.
+Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste
+the contents of <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.groovy" target="_blank">wakedevice.groovy</a> there. Then click on "Create" button.
 ```
 
 > now install npm and bower packages
