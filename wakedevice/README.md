@@ -45,10 +45,9 @@
 > Create a new SmartApp
 
 
-```shell
-Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste
+    - Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste
 the contents of <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.groovy" target="_blank">wakedevice.groovy</a> there. Then click on "Create" button.
-```
+
 
 > now install npm and bower packages
 
