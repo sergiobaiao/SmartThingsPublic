@@ -47,7 +47,24 @@ Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From 
 the contents of <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.groovy" target="_blank">wakedevice.groovy</a> there. Then click on "Create" button.
 
 
-> now install npm and bower packages
+> Create a new Device Handler
+Go to your "My Device Handlers" page, and click on "Create New Device Handler" button. Select the "From Code" option, 
+then paste the code from <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/togglebutton.groovy" target="_blank">togglebutton.groovy</a> on the form, then click on the "Create" button.
+
+> Create a new Device
+- You now need to create a new Device that will control this SmartApp. Go to your "My Devices" page, click on the new "Create New Device" button, and follow this:
+
+	- Name: Put a name for the Toggle Button, like "Turn on Kitchen TV"
+	- Label: Put a label, can be the same as the Name
+	- Zigbee Id: leave blank
+	- Device Network ID: Give it an unique identifier, like "BUTWOLKTV"
+	- Type: Select "Toggle Button"
+	- Version: Published
+	- Location: Choose the Location where your Smartthings Hub 
+	- Hub: Choose your Smartthings Hub
+	- Group: Not available. Leave as is
+
+Now click on "Create" button. Your newly created Virtual Switch will be shown at your "Devices" Page.
 
 ```shell
 $ npm install
