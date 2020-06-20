@@ -43,16 +43,16 @@
 ### Setup
 
 - **Create a new SmartApp**
-Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste
+	- Go to your "MySmartApps" page, click on the "New SmartApp" button, choose "From Code", and then copy and paste
 the contents of <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/wakedevice.groovy" target="_blank">wakedevice.groovy</a> there. Then click on "Create" button.
 
 
 - **Create a new Device Handler**
-Go to your "My Device Handlers" page, and click on "Create New Device Handler" button. Select the "From Code" option, 
+	- Go to your "My Device Handlers" page, and click on "Create New Device Handler" button. Select the "From Code" option, 
 then paste the code from <a href="https://raw.githubusercontent.com/sergiobaiao/SmartThingsPublic/master/wakedevice/togglebutton.groovy" target="_blank">togglebutton.groovy</a> on the form, then click on the "Create" button.
 
 - **Create a new Device**
-- You now need to create a new Device that will control this SmartApp. Go to your "My Devices" page, click on the new "Create New Device" button, and follow this:
+	- You now need to create a new Device that will control this SmartApp. Go to your "My Devices" page, click on the new "Create New Device" button, and follow this:
 
 	- Name: Put a name for the Toggle Button, like "Turn on Kitchen TV"
 	- Label: Put a label, can be the same as the Name
