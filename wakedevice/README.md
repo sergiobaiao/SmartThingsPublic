@@ -30,7 +30,7 @@
 
 ## Requirements
 
-- `SmartThings Groovy IDE` account is required to get started
+- <a href="https://graph.api.smartthings.com/" target="_blank">`SmartThings Groovy IDE`</a> account is required to get started
 - Your Smartthings `HUB` must be already linked to your account. If not, link it.
 - You must have at least one location on your account. 
 
