@@ -85,7 +85,7 @@ Reach out to me at one of the following places!
 
 ## License
 
-[![License](http://img.shields.io/:license-aur-blue.svg?style=flat-square)](http://badges.aur-license.org)
+[![License](http://img.shields.io/:license-Apache-blue.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
 
-- **[Apache license](http://www.apache.org/licenses/LICENSE-2.0)**
+- **[Apache License](http://www.apache.org/licenses/LICENSE-2.0)**
 - Copyright 2020 © <a href="http://twitter.com/sergiobaiao" target="_blank">sergiobaiao</a>.
